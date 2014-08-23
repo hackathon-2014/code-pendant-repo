@@ -30,6 +30,10 @@
     "wiredep": "^1.4.3"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "bootstrap": "^3.2.0",
+>>>>>>> 6012525d05c5b2d04fe59be6f492c74a70edb899
     "jquery": "^2.1.1"
   }
 }

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "hackathon",
+=======
+  "name": "code-pendant-repo",
+>>>>>>> 6012525d05c5b2d04fe59be6f492c74a70edb899
   "private": true,
   "dependencies": {
     "jquery": "~2.1.1",
