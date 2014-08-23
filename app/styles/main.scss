@@ -134,11 +134,11 @@ input:focus, textarea:focus {
   background-color: rgba(0,0,0,0);
   color: #0493bd;
 }
-  
+
 .submit:hover {
   color: #3498db;
 }
-  
+
 .ease {
   width: 0px;
   height: 74px;
@@ -164,4 +164,8 @@ input:focus, textarea:focus {
     padding-left: 3%;
     padding-right: 3%;
   }
+}
+
+.answer {
+  display: none;
 }
