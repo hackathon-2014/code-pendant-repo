@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>code pendant repo</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <script src="../bower_components/bootstrap/dist/css/bootstrap.css"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+
+    <header>
+      <h1>
+        Commune with Each Other!
+      </h1>
+    </header>
+
+    <div class="container">
+      <form >
+        <p> Your Name:
+            <input type="text" name="your name">
+        </p>
+        <p> Experience:
+            <input type="text" name="experience">
+        </p>
+        <p> Tech Field:
+            <input type="text" name="tech field">
+        </p>
+        <p> Help:
+            <input type="text" name="Help">
+        </p>
+        <p> Contact:
+            <input type="text" name="Contact">
+        </p>
+        <input type="submit" name="enter"  value= "submit info"/>
+      </form>
+    <div class= "input">
+    <!-- stuff goes here -->
+    </div>
+
+    <button type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary">
+  Loading state
+</button>
+<script>
+  $('#loading-example-btn').click(function () {
+    var btn = $(this)
+    btn.button('loading')
+    $.ajax(...).always(function () {
+      btn.button('reset')
+    });
+  });
+</script>
+
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/bootstrap/dist/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
