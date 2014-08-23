@@ -9,12 +9,13 @@ html{    background:url(http://www.johnmaclean.com/data/photos/44_1_mg_0968_edit
 }
 
 #right-div {
-  background-color:rgba(72,72,72,0.4);
+  background-color:rgba(72,72,72,0.92);
   padding-left:35px;
   padding-right:35px;
   padding-top:35px;
   padding-bottom:50px;
   width: 40%;
+  height:89.9%;
   float: left;
   right: 10%;
   position: absolute;
@@ -27,7 +28,11 @@ html{    background:url(http://www.johnmaclean.com/data/photos/44_1_mg_0968_edit
 #feedback-page{
   text-align:center;
 }
+.right{
+  height:100%;
 
+  overflow:scroll;
+}
 #form-main{
   width:100%;
   float:left;
@@ -264,7 +269,7 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 640px) {
   #form-div{
     left: 3%;
     margin-right: 3%;
@@ -285,6 +290,11 @@ input:focus, textarea:focus {
 
   }
 
+
+
+}
+.answer{
+  display:none;
 }
 
 .editContent, .respond{
