@@ -7,9 +7,7 @@ html{    background:url(http://www.johnmaclean.com/data/photos/44_1_mg_0968_edit
 .list{
   height:520px;
 }
-.answer{
-  display:none;
-}
+
 #right-div {
   background-color:rgba(72,72,72,0.4);
   padding-left:35px;
@@ -287,4 +285,8 @@ input:focus, textarea:focus {
 
   }
 
+}
+
+.editContent, .respond{
+  display: none;
 }
