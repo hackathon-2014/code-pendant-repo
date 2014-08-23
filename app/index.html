@@ -75,16 +75,16 @@
         <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] nameinput" placeholder="Name" id="name" />
       </p>
 
-      <p class="experience">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] experienceinput" placeholder="Name" id="name" />
+        <input name="name" type="number" class="validate[required,custom[onlyLetter],length[0,100]] experienceinput" placeholder="Years?" id="name" />
       </p>
 
       <p class="tech">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] techinput" placeholder="Name" id="name" />
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] techinput" placeholder="What is your code question?" id="name" />
       </p>
 
     <p class="text">
-        <textarea name="text" class="validate[required,length[6,300]] textinput" id="comment" placeholder="Comment"></textarea>
+        <textarea name="text" class="validate[required,length[6,1000]] textinput" id="comment" placeholder="Details"></textarea>
+
       </p>
 
       <p class="email">
@@ -103,17 +103,14 @@
     <div class="newsfeed">
       <div id="form-main">
         <div id="right-div">
-      <form class="right" id="news">
-        <div style="overflow:scroll" class="list">
-        <p class="listtext">
-          <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-        </p>
-      </form>
+          <form class="right" id="news">
+            
+            <div style="overflow:scroll" class="list">
+          </form>
+        </div>
+      </div>
     </div>
   </div>
-    </div>
-
-    </div>
 
 
 
@@ -126,8 +123,10 @@
     <!-- endbower -->
     <!-- endbuild -->
 
+
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <script src="scripts/templates.js"></script>
         <!-- endbuild -->
 </body>
 </html>
