@@ -269,6 +269,11 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
+
+.hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 640px) {
   #form-div{
     left: 3%;
@@ -290,13 +295,4 @@ input:focus, textarea:focus {
 
   }
 
-
-
-}
-.answer{
-  display:none;
-}
-
-.editContent, .respond{
-  display: none;
 }

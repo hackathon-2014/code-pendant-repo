@@ -10,7 +10,7 @@ var postTmpl = [
 
 
 
-  "<form class=\"answer\" name=\"helpPost\">",
+  "<form class=\"hidden\" name=\"helpPost\">",
       "<textarea name=\"editContent\" class=\"editContent\" cols=\"20\" rows=\"10\">",
       "<%= element.content %>",
       "</textarea>",

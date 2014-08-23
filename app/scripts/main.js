@@ -30,19 +30,21 @@ $(document).ready(function() {
         myCommunity.createPost(newPost);
 
       });
-      // $(".container").on("click", ".destroy", function(){
-      //
-      //   event.preventDefault();
-      //   var postId = $(this).closest("article").data("postid");
-      //   myCommunity.deletePost(postId);
-      //
-      // });
-      //
-      // $(".container").on("click", ".editPost", function(){
-      //   event.preventDefault();
-      //   $(this).closest("article").find("form").toggleClass("hide");
-      //
-      // });
+      $(".newsfeed").on("click", ".nevermind", function(event){
+
+        event.preventDefault();
+        var postId = $(this).closest("form").find("article").data("postid");
+        console.log(postId);
+        myCommunity.deletePost(postId);
+
+
+      });
+
+      $(".container").on("click", ".editPost", function(){
+        event.preventDefault();
+        $(this).closest("article").find("form").toggleClass("hide");
+
+      });
       $(".container").on("click", ".update", function(event){
 
         event.preventDefault();
