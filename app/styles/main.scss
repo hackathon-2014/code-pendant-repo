@@ -1,8 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+html{    background:url(http://www.johnmaclean.com/data/photos/44_1_mg_0968_edit_livebooks.jpg) repeat;
   background-size: cover;
   height:100%;
+}
+.list{
+  height:520px;
+}
+.answer{
+  display:none;
+}
+#right-div {
+  background-color:rgba(72,72,72,0.4);
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:35px;
+  padding-bottom:50px;
+  width: 40%;
+  float: left;
+  right: 10%;
+  position: absolute;
+  margin-top:30px;
+  margin-left: 0px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 
 #feedback-page{
@@ -21,16 +42,101 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
   padding-right:35px;
   padding-top:35px;
   padding-bottom:50px;
-  width: 450px;
+  width: 40%;
   float: left;
-  left: 50%;
+  left: 30%;
   position: absolute;
   margin-top:30px;
-  margin-left: -260px;
+  margin-left: -25%;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
+.nameinput {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+.experienceinput {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+.techinput {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+.textinput {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
 
+.emailinput {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
 .feedback-input {
   color:#3c3c3c;
   font-family: Helvetica, Arial, sans-serif;
@@ -106,6 +212,11 @@ textarea {
     line-height: 150%;
     resize:vertical;
 }
+.right textarea {
+    width: 100%;
+    line-height: 150%;
+    resize:vertical;
+}
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
@@ -134,11 +245,11 @@ input:focus, textarea:focus {
   background-color: rgba(0,0,0,0);
   color: #0493bd;
 }
-  
+
 .submit:hover {
   color: #3498db;
 }
-  
+
 .ease {
   width: 0px;
   height: 74px;
@@ -163,5 +274,15 @@ input:focus, textarea:focus {
     margin-left: 0;
     padding-left: 3%;
     padding-right: 3%;
+  }
+  .newsfeed #right-div{
+    left:3%;
+    margin-right:3%;
+    width:88%;
+    margin-left:0;
+    padding-left:3%;
+    padding-right:3%;
+    margin-top:120%;
+
   }
 }
