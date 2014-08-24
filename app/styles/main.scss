@@ -1,15 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-html{    background:url(http://www.johnmaclean.com/data/photos/44_1_mg_0968_edit_livebooks.jpg) repeat;
+body{
+  font-family: 'Lato', sans-serif;
+}
+html{    background:url(http://img138.imageshack.us/img138/2516/wallpaper06d.jpg) repeat;
   background-size: cover;
   height:100%;
 }
 .list{
   height:520px;
 }
+.post{
+  color:white;
+}
+.editPost, .nevermind, .respond{
+
+  background-color: #8B3F4C;
+  border:2px solid white;
+}
+.editPost:hover, .nevermind:hover, .respond:hover{
+
+  background-color: grey;
+}
 
 #right-div {
-  background-color:rgba(72,72,72,0.92);
+  background-color:rgba(72,72,72,0.6);
   padding-left:35px;
   padding-right:35px;
   padding-top:35px;
@@ -40,7 +53,7 @@ html{    background:url(http://www.johnmaclean.com/data/photos/44_1_mg_0968_edit
 }
 
 #form-div {
-  background-color:rgba(72,72,72,0.4);
+  background-color:rgba(72,72,72,0.6);
   padding-left:35px;
   padding-right:35px;
   padding-top:35px;
@@ -174,14 +187,14 @@ html{    background:url(http://www.johnmaclean.com/data/photos/44_1_mg_0968_edit
 
 /* Icons ---------------------------------- */
 #name{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
 }
 
 #name:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+
   background-size: 30px 30px;
   background-position: 8px 5px;
   background-position: 11px 8px;
@@ -232,7 +245,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor:pointer;
-  background-color: #3498db;
+  background-color: #DDBA6C;
   color:white;
   font-size:24px;
   padding-top:22px;
@@ -269,11 +282,6 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
-
-.hidden {
-  display: none;
-}
-
 @media only screen and (max-width: 640px) {
   #form-div{
     left: 3%;
@@ -289,10 +297,16 @@ input:focus, textarea:focus {
     margin-right:3%;
     width:88%;
     margin-left:0;
+    padding-top:10%;
     padding-left:3%;
     padding-right:3%;
-    margin-top:120%;
+    margin-top:220%;
 
   }
 
+
+
+}
+.answer{
+  display:none;
 }

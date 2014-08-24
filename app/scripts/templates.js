@@ -6,16 +6,11 @@ var postTmpl = [
     "<p><%= element.techinput %></p>",
     "<p><%= element.textinput %></p>",
     "<p><%= element.emailinput %></p>",
-    "<p><button class=\"editPost\">Update</button> <button class=\"nevermind\">Scratch That</button> <button class=\"answerQuestion\">Answer!</button></p>",
+    "<p><button class=\"editPost\">Update</button> <button class=\"nevermind\">Scratch That</button></p>",
 
 
 
-  "<form class=\"hidden\" name=\"helpPost\">",
-      "<textarea name=\"editContent\" class=\"editContent\" cols=\"20\" rows=\"10\">",
-      "<%= element.content %>",
-      "</textarea>",
-      "<input type=\"submit\" class=\"respond\" value=\"Help Them!\">",
-  "</form>",
+  
   "</article>",
   "<% }); %>"
 ].join("\n");
